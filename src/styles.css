@@ -1,0 +1,13 @@
+body {
+  position: relative;
+}
+#green-linear-gradient {
+  background: rgba(84, 190, 150, 2.05);
+  background: linear-gradient(
+    110deg,
+    rgba(84, 190, 150, 0.24) 0%,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(84, 190, 150, 0.25) 100%
+  );
+}

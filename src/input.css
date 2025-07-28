@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.btn-hover-black {
+  @apply hover:text-black cursor-pointer;
+}
+
+#green-linear-gradient {
+  background: #54be96;
+  background: linear-gradient(
+    90deg,
+    rgba(84, 190, 150, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(84, 190, 150, 1) 100%
+  );
+}
