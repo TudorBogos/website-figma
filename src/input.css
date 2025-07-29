@@ -1,15 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 .btn-hover-black {
   @apply hover:text-black cursor-pointer;
 }
 
-#green-linear-gradient {
-  background: #54be96;
-  background: linear-gradient(
-    90deg,
-    rgba(84, 190, 150, 1) 0%,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(84, 190, 150, 1) 100%
-  );
+@theme {
+  --font-Inter: "Inter";
+}
+
+.font-about-p {
+  @apply max-w-[428px] text-[#A6A6A6] font-Inter font-medium text-[18px] text-pretty leading-[30px];
 }
