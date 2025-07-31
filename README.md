@@ -1,4 +1,4 @@
-# Pentru vizualizare aveti nevoie de tailwind si [node.js](https://nodejs.org/en/download) <-- click pentru ghid cu instalare
+# Pentru vizualizare aveti nevoie de tailwind si [node.js](https://nodejs.org/en/download)
 
 Rulati urmatoarele comenzi dupa instalarea **node.js** in folder-ul cu fisiere
 
