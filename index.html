@@ -15,13 +15,16 @@
     <title>Biccas</title>
   </head>
   <body>
-    <section id="green-linear-gradient-3point">
+    <div
+      class="navbar-hero-container pt-[45px] pb-[130px]"
+      id="green-linear-gradient-3point-g"
+    >
       <section class="navbar">
         <nav
-          class="navbar-container bg-transparent flex flex-row justify-between w-screen items-center px-[130px] pt-[45px]"
+          class="navbar-container bg-transparent flex flex-row justify-between w-screen items-center px-[130px]"
         >
           <div
-            class="font-Inter text-[#54BD95] font-semibold text-[50px] leading-[30px]"
+            class="text-[#54BD95] font-semibold text-[50px] leading-[30px]"
             id="logo"
           >
             Biccas
@@ -46,7 +49,7 @@
               >
                 <li class="btn-hover-black">Login</li>
                 <li
-                  class="bg-[#54BD95] text-[#ffffff] rounded-[10px] p-[6px] hover:bg-[#469d7c] cursor-pointer"
+                  class="bg-[#54BD95] text-[#ffffff] rounded-[10px] p-[10px] hover:bg-[#469d7c] cursor-pointer text-[16px]"
                 >
                   Sign Up
                 </li>
@@ -56,14 +59,12 @@
         </nav>
       </section>
       <section class="hero-section">
-        <div
-          class="hero-container flex flex-col w-screen pb-[130px] mt-[130px]"
-        >
+        <div class="hero-section-container flex flex-col w-screen mt-[130px]">
           <div
-            class="hero-content flex flex-row w-[90%] justify-evenly ml-[130px] h-[578px]"
+            class="hero-content-container flex flex-row w-[90%] justify-evenly ml-[130px] h-[578px]"
           >
             <div
-              class="hero-content-left flex flex-col justify-evenly items-start max-w-[555px] text-left"
+              class="hero-content-left-container flex flex-col justify-evenly items-start max-w-[555px] text-left"
             >
               <h1
                 class="text-black font-bold text-[80px] w-[555px] text-pretty text-left leading-[90px]"
@@ -80,7 +81,7 @@
                 />
               </div>
               <div
-                class="max-w-[461px] text-pretty font-medium font-Inter text-[18px] text-black h-[90px] mt-[50px]"
+                class="max-w-[461px] text-pretty font-medium text-[18px] text-black h-[90px] mt-[50px]"
               >
                 Let's make your work more organize and easily using the Taskio
                 Dashboard with many of the latest featuresin managing work every
@@ -106,7 +107,7 @@
                 </ul>
               </div>
             </div>
-            <div class="hero-content-right">
+            <div class="hero-content-right-container">
               <img
                 src="./img/baiat_cu_income_smr.svg"
                 alt="baiat_cu_bani"
@@ -118,7 +119,7 @@
           <div
             class="hero-footer flex flex-col items-center justify-between mr-[5vw] mt-[130px]"
           >
-            <p class="font-Inter font-bold text-[40px] text-black mb-[60px]">
+            <p class="font-bold text-[40px] text-black mb-[60px]">
               More than 25,000 teams use Collabs
             </p>
             <p>
@@ -132,17 +133,17 @@
           </div>
         </div>
       </section>
-    </section>
+    </div>
     <!-- End of green-linear-gradient -->
-    <section class="about">
+    <section class="about bg-[#F9F8FE]">
       <div
-        class="about-container bg-[#F9F8FE] flex flex-row justify-center-safe w-screen h-[541px] items-center"
+        class="about-container flex flex-row justify-center-safe w-screen h-[541px] items-center"
       >
         <div
-          class="about-left max-w-[644px] max-h-[421px] flex flex-col mr-[27px]"
+          class="about-left-container max-w-[644px] max-h-[421px] flex flex-col mr-[27px]"
         >
           <h2
-            class="font-Inter text-black font-semibold text-[50px] leading-[120%] max-w-[617px] text-pretty"
+            class="text-black font-semibold text-[50px] leading-[120%] max-w-[617px] text-pretty"
           >
             How we support our partner all over the world
           </h2>
@@ -165,7 +166,7 @@
           </div>
         </div>
         <div
-          class="about-right max-w-[509px] max-h-[441px] flex flex-col pb-[10px]"
+          class="about-right-container max-w-[509px] max-h-[441px] flex flex-col pb-[10px]"
         >
           <div class="flex flex-row justify-center w-[509px]" id="about-p1">
             <div
@@ -174,7 +175,7 @@
               <img class="p-[15px]" src="./img/about-icon1.svg" alt="" />
             </div>
             <div>
-              <h2 class="font-Inter text-[28px] font-bold">Publishing</h2>
+              <h2 class="text-[28px] font-bold">Publishing</h2>
               <p class="font-about-p">
                 Plan, collaborate, and publish your content that drives
                 meaningful engagement and growth for your brand
@@ -191,7 +192,7 @@
               <img class="p-[15px]" src="./img/about-icon2.svg" alt="" />
             </div>
             <div>
-              <h2 class="font-Inter text-[28px] font-bold">Analytics</h2>
+              <h2 class="text-[28px] font-bold">Analytics</h2>
               <p class="font-about-p">
                 Analyze your performance and create gorgeous reports
               </p>
@@ -207,7 +208,7 @@
               <img class="p-[15px]" src="./img/about-icon3.svg" alt="" />
             </div>
             <div>
-              <h2 class="font-Inter text-[28px] font-bold">Engagement</h2>
+              <h2 class="text-[28px] font-bold">Engagement</h2>
               <p class="font-about-p">
                 Quickly navigate you anda engage with your audience
               </p>
@@ -216,185 +217,410 @@
         </div>
       </div>
     </section>
-    <section class="features">
-      <div
-        class="feature-container flex flex-col mt-[130px] justify-center items-center"
-      >
+    <div id="green-linear-gradient-3point-yg">
+      <section class="features pt-[130px]">
         <div
-          class="feature text h-[122px] flex flex-row justify-evenly items-center"
+          class="feature-container flex flex-col justify-center items-center"
         >
-          <h2
-            class="font-Inter text-black font-semibold text-[50px] leading-[120%] text-pretty max-w-[331px] text-left"
-          >
-            Our Features you can get
-          </h2>
-          <p
-            class="font-Inter max-w-[461px] text-[#A6A6A6] text-pretty text-left font-medium text-[18px] leading-[30px] mx-[113px]"
-          >
-            We offer a variety of interesting features that you can help
-            increase your productivity at work and manage your project easily
-          </p>
-          <button
-            class="bg-[#54BD95] font-Inter font-medium text-[18px] text-[#ffffff] rounded-[70px] px-[31px] py-[18px] hover:bg-[#469d7c] cursor-pointer"
-          >
-            Get Started
-          </button>
-        </div>
-        <div
-          class="feature-card-container max-w-[1180px] flex flex-row justify-evenly items-center w-screen mt-[74px]"
-        >
-          <div class="card1-container">
-            <img
-              src="./img/feature-card1.svg"
-              alt="Feature Card1"
-              width="364px"
-              height="430px"
-            />
-            <div class="card1-text mt-[30px] max-w-[340px]">
-              <h3 class="font-Inter text-[30px] font-semibold">
-                Collaboration Teams
-              </h3>
-              <p
-                class="font-Inter text-[18px] text-[#A6A6A6] font-medium mt-[20px] text-pretty"
-              >
-                Here you can handle projects together with team virtually
-              </p>
-            </div>
-          </div>
-          <div class="card2-container">
-            <img
-              src="./img/feature-card2.svg"
-              alt="Feature Card2"
-              width="364px"
-              height="430px"
-            />
-            <div class="card2-text mt-[30px] max-w-[340px]">
-              <h3 class="font-Inter text-[30px] font-semibold">
-                Cloud Storage
-              </h3>
-              <p
-                class="font-Inter text-[18px] text-[#A6A6A6] font-medium mt-[20px] text-pretty"
-              >
-                No need to worry about storage because we provide storage up to
-                2 TB
-              </p>
-            </div>
-          </div>
-          <div class="card3-container">
-            <img
-              src="./img/feature-card3.svg"
-              alt="Feature Card3"
-              width="364px"
-              height="430px"
-            />
-            <div class="card3-text mt-[30px] max-w-[340px]">
-              <h3 class="font-Inter text-[30px] font-semibold">
-                Daily Analytics
-              </h3>
-              <p
-                class="font-Inter text-[18px] text-[#A6A6A6] font-medium mt-[20px] text-pretty"
-              >
-                We always provide useful informatin to make it easier for you
-                every day
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="benefits">
-      <div
-        class="benefits-container flex flex-row justify-center mr-[61px] ml-[130px] mt-[130px]"
-      >
-        <div class="benefit-left max-w-[471px] mr-[135px]">
-          <h3
-            class="font-Inter text-[50px] font-bold leading-[100%] text-pretty mb-[50px]"
-          >
-            What Benefit Will You Get
-          </h3>
-          <ul
-            class="font-Inter text-[18px] text-[#000000] font-medium max-h-[280px] flex-col justify-evenly"
-          >
-            <li class="flex flex-row items-center mb-[20px]">
-              <img
-                class="mr-[20px]"
-                src="./img/green-tick.svg"
-                alt="Benefit Icon1"
-              />
-              Free consulting With Expert Saving Money
-            </li>
-            <li class="flex flex-row items-center mb-[20px]">
-              <img
-                class="mr-[20px]"
-                src="./img/green-tick.svg"
-                alt="Benefit Icon2"
-              />
-              Online Banking
-            </li>
-            <li class="flex flex-row items-center mb-[20px]">
-              <img
-                class="mr-[20px]"
-                src="./img/green-tick.svg"
-                alt="Benefit Icon3"
-              />
-              Investment Report Every Month
-            </li>
-            <li class="flex flex-row items-center mb-[20px]">
-              <img
-                class="mr-[20px]"
-                src="./img/green-tick.svg"
-                alt="Benefit Icon4"
-              />
-              Saving Money For The Future
-            </li>
-            <li class="flex flex-row items-center mb-[20px]">
-              <img
-                class="mr-[20px]"
-                src="./img/green-tick.svg"
-                alt="Benefit Icon5"
-              />
-              Online Transaction
-            </li>
-          </ul>
-        </div>
-        <div class="benefit-right">
-          <img
-            src="./img/benefit_image.svg"
-            alt="Benefit Image"
-            width="643px"
-            height="543px"
-          />
-        </div>
-      </div>
-    </section>
-    <section class="choose-plan">
-      <div class="plan-container mt-[130px]">
-        <div class="plan-top flex flex-col items-center mb-[67px]">
-          <h3
-            class="font-Inter text-[50px] font-bold leading-[73px] text-pretty mb-[40px] max-w-[492px] flex flex-col items-center"
-          >
-            <p>Choose plan</p>
-            <p>That's Right For You</p>
-          </h3>
-          <p class="font-Inter text-[18px] text-[#A6A6A6] font-bold mb-[40px]">
-            Choose a plan that works best for you, feel free to contact us
-          </p>
           <div
-            class="font-Inter text-[18px] text-black font-medium max-w-[340px] max-h-[70px] w-[340px] flex flex-row justify-between items-center shadow-[box-shadow: 0px 4px 9px 0px #0000000D] rounded-[10px]]"
+            class="feature-text-container h-[122px] flex flex-row justify-evenly items-center"
           >
-            <button
-              class="rounded-[10px] bg-white px-[40px] py-[13px] text-black cursor-pointer"
+            <h2
+              class="text-black font-semibold text-[50px] leading-[120%] text-pretty max-w-[331px] text-left"
             >
-              Bil Monthly
-            </button>
-            <button
-              class="rounded-[10px] bg-[#54BD95] px-[40px] py-[13px] text-white cursor-pointer"
+              Our Features you can get
+            </h2>
+            <p
+              class="max-w-[461px] text-[#A6A6A6] text-pretty text-left font-medium text-[18px] leading-[30px] mx-[113px]"
             >
-              Bil Yearly
+              We offer a variety of interesting features that you can help
+              increase your productivity at work and manage your project easily
+            </p>
+            <button
+              class="bg-[#54BD95] font-medium text-[18px] text-[#ffffff] rounded-[70px] px-[31px] py-[18px] hover:bg-[#469d7c] cursor-pointer"
+            >
+              Get Started
             </button>
           </div>
+          <div
+            class="feature-card-container max-w-[1180px] flex flex-row justify-evenly items-center w-screen mt-[74px]"
+          >
+            <div id="feature-card1-container">
+              <img
+                src="./img/feature-card1.svg"
+                alt="Feature Card1"
+                width="364px"
+                height="430px"
+              />
+              <div class="card1-text mt-[30px] max-w-[340px]">
+                <h3 class="text-[30px] font-semibold">Collaboration Teams</h3>
+                <p
+                  class="text-[18px] text-[#A6A6A6] font-medium mt-[20px] text-pretty"
+                >
+                  Here you can handle projects together with team virtually
+                </p>
+              </div>
+            </div>
+            <div id="feature-card2-container">
+              <img
+                src="./img/feature-card2.svg"
+                alt="Feature Card2"
+                width="364px"
+                height="430px"
+              />
+              <div class="card2-text mt-[30px] max-w-[340px]">
+                <h3 class="text-[30px] font-semibold">Cloud Storage</h3>
+                <p
+                  class="text-[18px] text-[#A6A6A6] font-medium mt-[20px] text-pretty"
+                >
+                  No need to worry about storage because we provide storage up
+                  to 2 TB
+                </p>
+              </div>
+            </div>
+            <div id="feature-card3-container">
+              <img
+                src="./img/feature-card3.svg"
+                alt="Feature Card3"
+                width="364px"
+                height="430px"
+              />
+              <div class="card3-text mt-[30px] max-w-[340px]">
+                <h3 class="text-[30px] font-semibold">Daily Analytics</h3>
+                <p
+                  class="text-[18px] text-[#A6A6A6] font-medium mt-[20px] text-pretty"
+                >
+                  We always provide useful informatin to make it easier for you
+                  every day
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="benefits pt-[130px]">
+        <div
+          class="benefits-container flex flex-row justify-center mr-[61px] ml-[130px]"
+        >
+          <div class="benefit-left max-w-[471px] mr-[135px]">
+            <h3
+              class="text-[50px] font-bold leading-[100%] text-pretty mb-[50px]"
+            >
+              What Benefit Will You Get
+            </h3>
+            <ul
+              class="text-[18px] text-[#000000] font-medium max-h-[280px] flex flex-col justify-evenly gap-y-[20px]"
+            >
+              <li class="flex flex-row items-center">
+                <img
+                  class="mr-[20px]"
+                  src="./img/green-tick.svg"
+                  alt="Benefit Icon1"
+                />
+                Free consulting With Expert Saving Money
+              </li>
+              <li class="flex flex-row items-center">
+                <img
+                  class="mr-[20px]"
+                  src="./img/green-tick.svg"
+                  alt="Benefit Icon2"
+                />
+                Online Banking
+              </li>
+              <li class="flex flex-row items-center">
+                <img
+                  class="mr-[20px]"
+                  src="./img/green-tick.svg"
+                  alt="Benefit Icon3"
+                />
+                Investment Report Every Month
+              </li>
+              <li class="flex flex-row items-center">
+                <img
+                  class="mr-[20px]"
+                  src="./img/green-tick.svg"
+                  alt="Benefit Icon4"
+                />
+                Saving Money For The Future
+              </li>
+              <li class="flex flex-row items-center">
+                <img
+                  class="mr-[20px]"
+                  src="./img/green-tick.svg"
+                  alt="Benefit Icon5"
+                />
+                Online Transaction
+              </li>
+            </ul>
+          </div>
+          <div class="benefit-right">
+            <img
+              src="./img/benefit_image.svg"
+              alt="Benefit Image"
+              width="643px"
+              height="543px"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="choose-plan pt-[130px]">
+        <div class="plan-container">
+          <div class="plan-top-container flex flex-col items-center">
+            <h3
+              class="text-[50px] font-bold leading-[73px] text-pretty mb-[40px] max-w-[492px] flex flex-col items-center"
+            >
+              <p>Choose a plan</p>
+              <p>That's Right For You</p>
+            </h3>
+            <p class="text-[18px] text-[#A6A6A6] font-bold mb-[40px]">
+              Choose a plan that works best for you, feel free to contact us
+            </p>
+            <div
+              class="bill-shadow text-[18px] text-black font-medium max-w-[340px] max-h-[70px] w-[340px] flex flex-row justify-center items-center rounded-[10px] py-[8px]"
+            >
+              <button
+                class="px-[30px] py-[13px] text-black cursor-pointer"
+                id="bill-monthly-btn"
+              >
+                Bill Monthly
+              </button>
+              <button
+                class="rounded-[10px] bg-[#54BD95] px-[40px] py-[13px] text-white cursor-pointer"
+                id="bill-yearly-btn"
+              >
+                Bill Yearly
+              </button>
+            </div>
+          </div>
+          <div
+            class="plan-cards-container w-screen max-h-[684px] mt-[67px] flex flex-row items-center justify-center gap-x-[29px]"
+          >
+            <div class="plan-card" id="plan-card1-container">
+              <div
+                class="text-container flex flex-col justify-between items-center max-w-[210px]"
+              >
+                <p class="font-semibold text-[30px]">Free</p>
+                <p
+                  class="font-medium text-[18px] leading-[27px] text-wrap text-center text-[#A6A6A6]"
+                >
+                  Have a go and test your superpowers
+                </p>
+                <div class="price-container flex flex-row">
+                  <p
+                    class="font-medium text-[18px] text-[#A6A6A6] leading-[30px] pb-[20px]"
+                  >
+                    $
+                  </p>
+                  <p class="font-semibold text-[50px] leading-[30px] pt-[20px]">
+                    0
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-[#F9FAFB] px-[37px] py-[26px] flex flex-col justify-center items-center mt-[30px] rounded-[10px]"
+              >
+                <ul
+                  class="text-[18px] leading-[30px] text-[#000000] font-medium max-h-[380px] flex flex-col justify-evenly gap-y-[22px] text-nowrap"
+                >
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon1"
+                    />
+                    2 Users
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon2"
+                    />
+                    2 Files
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon3"
+                    />
+                    Public Share & Comments
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon4"
+                    />
+                    Char Support
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon5"
+                    />
+                    New income apps
+                  </li>
+                </ul>
+                <button
+                  class="font-semibold text-[18px] text-[#54BD95] bg-white rounded-[20px] px-[65px] py-[17px] mt-[27px]"
+                >
+                  Signup for free
+                </button>
+              </div>
+            </div>
+            <div class="plan-card" id="plan-card2-container">
+              <div
+                class="text-container flex flex-col justify-between items-center max-w-[210px] text-white"
+              >
+                <p class="font-semibold text-[30px]">Pro</p>
+                <p
+                  class="font-medium text-[18px] leading-[27px] text-balance text-center"
+                >
+                  Experiment the power of infinite possibilities
+                </p>
+                <div class="price-container flex flex-row">
+                  <p class="font-medium text-[18px] leading-[30px] pb-[20px]">
+                    $
+                  </p>
+                  <p class="font-semibold text-[50px] leading-[30px] pt-[20px]">
+                    0
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-[#F9FAFB] px-[37px] py-[26px] flex flex-col justify-center items-center mt-[30px] rounded-[10px]"
+              >
+                <ul
+                  class="text-[18px] leading-[30px] text-[#000000] font-medium max-h-[380px] flex flex-col justify-evenly gap-y-[22px] text-nowrap"
+                >
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon1"
+                    />
+                    4 Users
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon2"
+                    />
+                    All apps
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon3"
+                    />
+                    Unlimited editable exports
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon4"
+                    />
+                    Folders and collaboration
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon5"
+                    />
+                    All incoming apps
+                  </li>
+                </ul>
+                <button
+                  class="font-semibold text-[18px] text-[#54BD95] bg-white rounded-[20px] px-[65px] py-[17px] mt-[27px]"
+                >
+                  Go to Pro
+                </button>
+              </div>
+            </div>
+            <div class="plan-card" id="plan-card3-container">
+              <div
+                class="text-container flex flex-col justify-between items-center"
+              >
+                <p class="font-semibold text-[30px]">Business</p>
+                <p
+                  class="font-mediumtext-[18px] leading-[27px] text-center text-balance text-[#A6A6A6] max-h-[54px] max-w-[251px]"
+                >
+                  Unveil new superpowers and join the Design Leaque
+                </p>
+                <div class="price-container flex flex-row">
+                  <p
+                    class="font-medium text-[18px] text-[#A6A6A6] leading-[30px] pb-[20px]"
+                  >
+                    $
+                  </p>
+                  <p class="font-semibold text-[50px] leading-[30px] pt-[20px]">
+                    16
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-[#F9FAFB] px-[37px] py-[26px] flex flex-col justify-center items-center mt-[30px] rounded-[10px]"
+              >
+                <ul
+                  class="text-[18px] leading-[30px] text-[#000000] font-medium max-h-[380px] flex flex-col justify-evenly gap-y-[22px] text-nowrap"
+                >
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon1"
+                    />
+                    All the features of pro plan
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon2"
+                    />
+                    Account success Manager
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon3"
+                    />
+                    Single Sign-On (SSO)
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon4"
+                    />
+                    Co-conception pogram
+                  </li>
+                  <li class="flex flex-row items-center">
+                    <img
+                      class="mr-[10px]"
+                      src="./img/green-tick.svg"
+                      alt="Benefit Icon5"
+                    />
+                    Collaboration-Soon
+                  </li>
+                </ul>
+                <button
+                  class="font-semibold text-[18px] text-[#54BD95] bg-white rounded-[20px] px-[65px] py-[17px] mt-[27px]"
+                >
+                  Go to Business
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

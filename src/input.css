@@ -12,3 +12,11 @@
 .font-about-p {
   @apply max-w-[428px] text-[#A6A6A6] font-Inter font-medium text-[18px] text-pretty leading-[30px];
 }
+
+body {
+  @apply font-Inter;
+}
+
+.plan-card {
+  @apply max-w-[374px] max-h-[644px] px-[20px] pt-[40px] pb-[25px] flex flex-col justify-center items-center;
+}
