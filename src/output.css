@@ -164,6 +164,12 @@
   }
 }
 @layer utilities {
+  .mx-\[113px\] {
+    margin-inline: 113px;
+  }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -173,11 +179,17 @@
   .mt-\[73px\] {
     margin-top: 73px;
   }
+  .mt-\[74px\] {
+    margin-top: 74px;
+  }
   .mt-\[130px\] {
     margin-top: 130px;
   }
   .mr-\[5vw\] {
     margin-right: 5vw;
+  }
+  .mr-\[20px\] {
+    margin-right: 20px;
   }
   .mr-\[21px\] {
     margin-right: 21px;
@@ -185,14 +197,29 @@
   .mr-\[27px\] {
     margin-right: 27px;
   }
+  .mr-\[61px\] {
+    margin-right: 61px;
+  }
   .mr-\[80px\] {
     margin-right: 80px;
+  }
+  .mr-\[135px\] {
+    margin-right: 135px;
+  }
+  .mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+  .mb-\[40px\] {
+    margin-bottom: 40px;
+  }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
   }
   .mb-\[60px\] {
     margin-bottom: 60px;
   }
-  .ml-\[40px\] {
-    margin-left: 40px;
+  .mb-\[67px\] {
+    margin-bottom: 67px;
   }
   .ml-\[130px\] {
     margin-left: 130px;
@@ -212,6 +239,9 @@
   .h-\[90px\] {
     height: 90px;
   }
+  .h-\[122px\] {
+    height: 122px;
+  }
   .h-\[137px\] {
     height: 137px;
   }
@@ -221,8 +251,17 @@
   .h-\[578px\] {
     height: 578px;
   }
+  .h-full {
+    height: 100%;
+  }
   .max-h-\[60px\] {
     max-height: 60px;
+  }
+  .max-h-\[70px\] {
+    max-height: 70px;
+  }
+  .max-h-\[280px\] {
+    max-height: 280px;
   }
   .max-h-\[421px\] {
     max-height: 421px;
@@ -239,6 +278,9 @@
   .w-\[180px\] {
     width: 180px;
   }
+  .w-\[340px\] {
+    width: 340px;
+  }
   .w-\[509px\] {
     width: 509px;
   }
@@ -254,8 +296,20 @@
   .max-w-\[60px\] {
     max-width: 60px;
   }
+  .max-w-\[331px\] {
+    max-width: 331px;
+  }
+  .max-w-\[340px\] {
+    max-width: 340px;
+  }
   .max-w-\[461px\] {
     max-width: 461px;
+  }
+  .max-w-\[471px\] {
+    max-width: 471px;
+  }
+  .max-w-\[492px\] {
+    max-width: 492px;
   }
   .max-w-\[509px\] {
     max-width: 509px;
@@ -268,6 +322,9 @@
   }
   .max-w-\[644px\] {
     max-width: 644px;
+  }
+  .max-w-\[1180px\] {
+    max-width: 1180px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -314,6 +371,9 @@
   .rounded-\[40px\] {
     border-radius: 40px;
   }
+  .rounded-\[70px\] {
+    border-radius: 70px;
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -339,8 +399,20 @@
   .px-\[30px\] {
     padding-inline: 30px;
   }
+  .px-\[31px\] {
+    padding-inline: 31px;
+  }
+  .px-\[40px\] {
+    padding-inline: 40px;
+  }
   .px-\[130px\] {
     padding-inline: 130px;
+  }
+  .py-\[13px\] {
+    padding-block: 13px;
+  }
+  .py-\[18px\] {
+    padding-block: 18px;
   }
   .py-\[20px\] {
     padding-block: 20px;
@@ -353,6 +425,9 @@
   }
   .pb-\[130px\] {
     padding-bottom: 130px;
+  }
+  .pl-\[40px\] {
+    padding-left: 40px;
   }
   .text-left {
     text-align: left;
@@ -369,14 +444,14 @@
   .text-\[28px\] {
     font-size: 28px;
   }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
   .text-\[40px\] {
     font-size: 40px;
   }
   .text-\[50px\] {
     font-size: 50px;
-  }
-  .text-\[60px\] {
-    font-size: 60px;
   }
   .text-\[80px\] {
     font-size: 80px;
@@ -384,6 +459,10 @@
   .leading-\[30px\] {
     --tw-leading: 30px;
     line-height: 30px;
+  }
+  .leading-\[73px\] {
+    --tw-leading: 73px;
+    line-height: 73px;
   }
   .leading-\[90px\] {
     --tw-leading: 90px;
@@ -396,14 +475,6 @@
   .leading-\[120\%\] {
     --tw-leading: 120%;
     line-height: 120%;
-  }
-  .leading-\[130\%\] {
-    --tw-leading: 130%;
-    line-height: 130%;
-  }
-  .leading-\[150\%\] {
-    --tw-leading: 150%;
-    line-height: 150%;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -423,6 +494,9 @@
   .text-wrap {
     text-wrap: wrap;
   }
+  .text-\[\#000000\] {
+    color: #000000;
+  }
   .text-\[\#54BD95\] {
     color: #54BD95;
   }
@@ -435,12 +509,18 @@
   .text-black {
     color: var(--color-black);
   }
+  .text-white {
+    color: var(--color-white);
+  }
   .underline {
     text-decoration-line: underline;
   }
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .filter {
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .hover\:bg-\[\#469d7c\] {
     &:hover {
@@ -507,6 +587,59 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-drop-shadow-size {
+  syntax: "*";
+  inherits: false;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -519,6 +652,19 @@
       --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-outline-style: solid;
+      --tw-blur: initial;
+      --tw-brightness: initial;
+      --tw-contrast: initial;
+      --tw-grayscale: initial;
+      --tw-hue-rotate: initial;
+      --tw-invert: initial;
+      --tw-opacity: initial;
+      --tw-saturate: initial;
+      --tw-sepia: initial;
+      --tw-drop-shadow: initial;
+      --tw-drop-shadow-color: initial;
+      --tw-drop-shadow-alpha: 100%;
+      --tw-drop-shadow-size: initial;
     }
   }
 }

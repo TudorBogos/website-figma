@@ -1,4 +1,4 @@
-#green-linear-gradient {
+#green-linear-gradient-3point {
   background: rgba(84, 190, 150, 2.05);
   background: linear-gradient(
     110deg,
@@ -6,6 +6,15 @@
     rgba(255, 255, 255, 1) 40%,
     rgba(255, 255, 255, 1) 60%,
     rgba(84, 190, 150, 0.25) 100%
+  );
+}
+
+#green-linear-gradient-2point {
+  background: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.83) 15%,
+    rgba(84, 190, 150, 1) 100%
   );
 }
 
