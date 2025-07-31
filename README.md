@@ -1,6 +1,6 @@
-# Pentru instalare aveti nevoie de tailwind si node.js
+# Pentru vizualizare aveti nevoie de tailwind si [node.js](https://nodejs.org/en/download) <-- click pentru ghid cu instalare
 
-Rulati urmatoarele comenzi dupa deschiderea folderului cu fisiere
+Rulati urmatoarele comenzi dupa instalarea **node.js** in folder-ul cu fisiere
 
 ```
 npm install tailwindcss @tailwindcss/cli
